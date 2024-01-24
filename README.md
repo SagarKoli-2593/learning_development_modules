@@ -1,16 +1,13 @@
-# custom_painter_sample
+# learning and development module
 
-A new Flutter project.
+This repository includes POS for Youtube data api, Youtube framework, basic to custom paint, unit testing using Mockito
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+YoutubeData api is consumed using official youtubeData api v3 and uses YoutubePlayerController to load youtube video using valid youtubeVideoId.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+CustomPainter has been using to design star shaped widget with rotation animation. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Mockito package is used to unit test domain, data, repository level end to end testing. 
